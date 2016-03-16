@@ -1,0 +1,1 @@
+[06-Nov-2015 02:29:48 Africa/Johannesburg] PHP Fatal error:  Call to undefined function add_action() in /home/dfwuoxfe/public_html/wp-content/plugins/akismet/legacy.php on line 356
