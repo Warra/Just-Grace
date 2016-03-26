@@ -48,7 +48,7 @@
     <div class="container">
         <div class="header-sec">
             <div class="logo-sec"><a href="http://justgrace.co.za/"><img src=<?php echo( get_template_directory_uri()."/images/logo.png");?> alt="" /></a> </div>
-            <div class="donate-sec"> <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=73X8LCC8P57CS&lc=ZA&item_name=Just%20Grace&currency_code=USD&bn=PP%2dDonationsBF%3abtn_donateCC_LG%2egif%3aNonHosted" class="donate-btn">Donate Now</a><a href="https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=73X8LCC8P57CS&lc=ZA&item_name=Just%20Grace&currency_code=USD&bn=PP%2dDonationsBF%3abtn_donateCC_LG%2egif%3aNonHosted" class="support-btn">Support our mission</a> </div>
+            <div class="donate-sec"> <a href=<?php echo(site_url()."/banking-details") ?> class="donate-btn">Donate Now</a><a href=<?php echo(site_url()."/banking-details") ?> class="support-btn">Support our mission</a> </div>
             <div class="seach-sec">
                 <div class="sitesearch">
                     <?php get_search_form();?> </div>
@@ -60,7 +60,7 @@
         <div class="container">
             <div class="top-manu">
                 <?php
-                  wp_nav_menu(['theme_location' => 'primary', 'menu_class' => 'main-nav']);
+                  wp_nav_menu(array('theme_location' => 'primary', 'menu_class' => 'main-nav'));
                 ?>
                 <!--<ul>
                   <li><a href="#">Home</a></li>
