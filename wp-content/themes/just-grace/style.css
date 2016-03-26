@@ -1912,6 +1912,11 @@ div.wpcf7 .wpcf7-validation-errors{
 
 }
 
+span.wpcf7-list-item {
+  display:block !important;
+  margin-left: 0.5em;
+}
+
 #v-for span {
 
   display: inline-block;
@@ -1919,6 +1924,7 @@ div.wpcf7 .wpcf7-validation-errors{
   margin-bottom: 3px;
 
 }
+
 
 .wpcf7-captchar{
 
