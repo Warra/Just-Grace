@@ -16,6 +16,18 @@
     </title>
     <meta name="viewport" content="width=device-width">
     <link href=<?php echo(get_template_directory_uri()."/style.css"); ?> rel="stylesheet" type="text/css" />
+    <?php
+    $bgurl= get_post_meta($post->ID, "bg_img_url", true);
+    if (!empty($bgurl)) {
+    }
+    ?>
+    <style type="text/css">
+        .about-content-bg {
+            background: url("<?php echo $bgurl; ?>");
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+    </style>
     <?php wp_head(); ?>
     <script>
         (function(i, s, o, g, r, a, m) {

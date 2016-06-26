@@ -1244,13 +1244,6 @@ h6{
   padding-top: 0;
 
   width: 100% !important;
-
-  background-repeat: no-repeat;
-
-  background-size: cover !important;
-
-  width: 100%;
-
 }
 
 .financial-img{
@@ -1991,6 +1984,10 @@ span.wpcf7-list-item {
   padding-top: 20px;
 
   width: 100%;
+
+  background-repeat: no-repeat;
+
+  background-size: cover;
 
 }
 
