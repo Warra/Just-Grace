@@ -1069,8 +1069,6 @@ h6{
 
 .about-content-bg {
 
-  //background: url("http://justgrace.electricegg.co.za/wp-content/themes/just-grace/images/index-bg.jpg") no-repeat scroll center top rgba(0, 0, 0, 0);
-
   padding-bottom: 95px;
 
   padding-top: 100px;
@@ -1237,7 +1235,7 @@ h6{
 
 .page-id-9 .content-area .about-content-bg {
 
-  background-position: center -54px !important;
+  background-image: url("http://justgrace.co.za/wp-content/themes/just-grace/images/index-2016-bg.JPG");
 
   margin: 0 auto;
 
@@ -1246,6 +1244,12 @@ h6{
   padding-top: 0;
 
   width: 100% !important;
+
+  background-repeat: no-repeat;
+
+  background-size: cover !important;
+
+  width: 100%;
 
 }
 
